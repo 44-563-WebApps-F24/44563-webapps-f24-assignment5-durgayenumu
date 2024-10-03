@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <nav class="navbar navbar-expand-md navbar-light bg-light" >
+    <a class="navbar-brand" href="desserts.html">Dessert Options</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="basic.html">Basic</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="advanced.html">Advanced</a>
+            </li>
+        </ul>
+    </div>
+</nav>
   <title>Desserts</title>
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -13,6 +31,7 @@
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </head>
 <body>
+  
   <h3>After dinner hosted by VenkataDurga Yenumula</h3>
   <div>
     <div class="Containers">
@@ -146,7 +165,64 @@
       <li><a class="dropdown-item" href="advanced.html" > ADVANCED </a></li>
       </ul>
   </div>
-  </div><br>
+  </div>
+  <form>
+    <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email">
+        <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+        <label for="dessert">Favorite Dessert</label>
+        <input type="text" class="form-control" id="dessert" placeholder="Enter your dessert">
+    </div>
+    <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="newsletter">
+        <label class="form-check-label" for="newsletter">Sign up for newsletter?</label>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+</form>
+</div>
+<div class="container mt-5"></div>
+  <h2>Bonus</h2>
+  <h2>Dessert Cards</h2>
+  <div class="row">
+      <div class="col-md-4">
+          <div class="card">
+              <img src="Yellowcake.jfif" class="card-img-top" alt="Yellow cake">
+              <div class="card-body">
+                  <h5 class="card-title">Yellow cake</h5>
+                  <p class="card-text">Yellow Cake is a classic, buttery cake that gets its name from its golden yellow color, which comes from the use of egg yolks and butter. It has a light, tender crumb and is often used for layered cakes.</p>
+                  <a href="https://en.wikipedia.org/wiki/Yellowcake" class="btn btn-primary">Learn More</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card">
+              <img src="Espresso brownies.jfif" class="card-img-top" alt="Espresso brownies">
+              <div class="card-body">
+                  <h5 class="card-title">Espresso brownies</h5>
+                  <p class="card-text">Espresso brownie cake is a decadent dessert that combines the rich, fudgy texture of brownies with the bold flavor of espresso. This cake typically features a dense and moist brownie base infused with espresso, enhancing its chocolate flavor and giving it a deep, aromatic quality.</p>
+                  <a href="https://en.wikipedia.org/wiki/Espresso_brownies" class="btn btn-primary">Learn More</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card">
+              <img src="nuttella crepes.jfif" class="card-img-top" alt="nuttella crepes">
+              <div class="card-body">
+                  <h5 class="card-title">nuttella crepes</h5>
+                  <p class="card-text">Nutella crepe rolls are a delicious and indulgent dessert made from thin, delicate crepes filled with the rich, creamy hazelnut spread, Nutella. This treat is often served as a sweet snack or dessert and is beloved for its combination of textures and flavors.</p>
+                  <a href="https://en.wikipedia.org/wiki/Nuttella_crepes" class="btn btn-primary">Learn More</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+
+
 
 
 
